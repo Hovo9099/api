@@ -1,0 +1,236 @@
+<ns3:ResponseEx>
+            <ns3:Response>
+               <ns3:Messages>
+                  <ns3:Message>
+                     <ns3:Type>G</ns3:Type>
+                     <ns3:Message>ORDER NUMBER: 1YGR04V</ns3:Message>
+                  </ns3:Message>
+               </ns3:Messages>
+               <ns3:RequesterInformation>
+                  <ns3:Name>VINReq</ns3:Name>
+                  <ns3:AccountNumber>587578TST</ns3:AccountNumber>
+               </ns3:RequesterInformation>
+               <ns3:TransactionDetailsEx>
+                  <ns3:TransactionDetails>
+                     <ns3:RuleplanId>5200</ns3:RuleplanId>
+                     <ns3:DateTimeReceived>
+                        <ns3:Year>2023</ns3:Year>
+                        <ns3:Month>5</ns3:Month>
+                        <ns3:Day>9</ns3:Day>
+                        <ns3:Hour24>10</ns3:Hour24>
+                        <ns3:Minute>19</ns3:Minute>
+                        <ns3:Second>36</ns3:Second>
+                        <ns3:MilliSeconds>471</ns3:MilliSeconds>
+                     </ns3:DateTimeReceived>
+                     <ns3:DateTimeCompleted>
+                        <ns3:Year>2023</ns3:Year>
+                        <ns3:Month>5</ns3:Month>
+                        <ns3:Day>9</ns3:Day>
+                        <ns3:Hour24>10</ns3:Hour24>
+                        <ns3:Minute>19</ns3:Minute>
+                        <ns3:Second>36</ns3:Second>
+                        <ns3:MilliSeconds>557</ns3:MilliSeconds>
+                     </ns3:DateTimeCompleted>
+                     <ns3:QuoteBacks>
+                        <ns3:QuoteBack>
+                           <ns3:Name>LNRiskXML</ns3:Name>
+                           <ns3:Value>VIN</ns3:Value>
+                        </ns3:QuoteBack>
+                     </ns3:QuoteBacks>
+                  </ns3:TransactionDetails>
+                  <ns3:ProcessingStatus>Complete Success</ns3:ProcessingStatus>
+                  <ns3:TransactionId>1YGR04V</ns3:TransactionId>
+               </ns3:TransactionDetailsEx>
+               <ns3:SearchBy>
+                  <ns3:Vehicles>
+                     <ns3:InquiryVehicle vehicleId="VEH1">
+                        <ns3:VIN>1B7HF16Y21S207435</ns3:VIN>
+                     </ns3:InquiryVehicle>
+                  </ns3:Vehicles>
+               </ns3:SearchBy>
+               <ns3:Products>
+                  <ns3:VehicleIdentification>
+                     <ns3:InquiryVehicleIdentification>
+                        <ns3:SearchBy>
+                           <ns3:Vehicles>
+                              <ns3:Vehicle ref="VEH1">VEH1</ns3:Vehicle>
+                           </ns3:Vehicles>
+                           <ns3:Type>VIN Only Services Type</ns3:Type>
+                        </ns3:SearchBy>
+                     </ns3:InquiryVehicleIdentification>
+                  </ns3:VehicleIdentification>
+               </ns3:Products>
+               <ns3:ProductResults>
+                  <ns3:VehicleIdentificationResults>
+                     <ns3:Result>
+                        <ns3:ReferenceNumber>23129004833236</ns3:ReferenceNumber>
+                        <ns3:ReportCode>756</ns3:ReportCode>
+                        <ns3:ReportType>VIN_ONLY_SERVICES_TYPE</ns3:ReportType>
+                        <ns3:ReportUsage>E</ns3:ReportUsage>
+                        <ns3:TimeOfReport>
+                           <ns3:Hour24>0</ns3:Hour24>
+                           <ns3:Minute>0</ns3:Minute>
+                        </ns3:TimeOfReport>
+                        <ns3:Status>Completed</ns3:Status>
+                        <ns3:InquiryProcessingSummary>
+                           <ns3:NumberMatched>1</ns3:NumberMatched>
+                           <ns3:NumberNotFound>0</ns3:NumberNotFound>
+                           <ns3:NumberDeveloped>0</ns3:NumberDeveloped>
+                        </ns3:InquiryProcessingSummary>
+                        <ns3:Messages>
+                           <ns3:Message>
+                              <ns3:Classification>GR</ns3:Classification>
+                              <ns3:Type>GENERAL</ns3:Type>
+                              <ns3:Message>DPPA: VIN SERVICES REPORT FOR USE IN INSURANCE RATING OR UNDERWRITING</ns3:Message>
+                           </ns3:Message>
+                        </ns3:Messages>
+                        <ns3:SearchDataSet>
+                           <ns3:Vehicles>
+                              <ns3:ResultVehicle>
+                                 <ns3:InsuranceVehicle vehicleId="VEH1">
+                                    <ns3:Year>0</ns3:Year>
+                                    <ns3:VIN>1B7HF16Y21S207435</ns3:VIN>
+                                 </ns3:InsuranceVehicle>
+                                 <ns3:VinDecode>
+                                    <ns3:Result>Equal</ns3:Result>
+                                    <ns3:Type>Unknown</ns3:Type>
+                                    <ns3:Year>0000</ns3:Year>
+                                 </ns3:VinDecode>
+                              </ns3:ResultVehicle>
+                           </ns3:Vehicles>
+                        </ns3:SearchDataSet>
+                        <ns3:ResultDataSet>
+                           <ns3:Vehicles>
+                              <ns3:ResultVehicle>
+                                 <ns3:InsuranceVehicle vehicleId="VEH903901923">
+                                    <ns3:Year>2001</ns3:Year>
+                                    <ns3:Make>DODGE</ns3:Make>
+                                    <ns3:Model>RAM 1500</ns3:Model>
+                                    <ns3:VIN>1B7HF16Y21S207435</ns3:VIN>
+                                    <ns3:PlateState>AZ</ns3:PlateState>
+                                 </ns3:InsuranceVehicle>
+                                 <ns3:Type>Discovered vehicle</ns3:Type>
+                                 <ns3:PlateExpirationDate>
+                                    <ns3:Year>2023</ns3:Year>
+                                    <ns3:Month>5</ns3:Month>
+                                    <ns3:Day>8</ns3:Day>
+                                 </ns3:PlateExpirationDate>
+                                 <ns3:RegistrationDate>
+                                    <ns3:Year>2022</ns3:Year>
+                                    <ns3:Month>5</ns3:Month>
+                                    <ns3:Day>9</ns3:Day>
+                                 </ns3:RegistrationDate>
+                                 <ns3:BrandedIndicator>N</ns3:BrandedIndicator>
+                                 <ns3:Odometer>0</ns3:Odometer>
+                                 <ns3:Price>21085</ns3:Price>
+                                 <ns3:PriceVariance>0000</ns3:PriceVariance>
+                                 <ns3:BodyStyle>PK</ns3:BodyStyle>
+                                 <ns3:CountryOfOrigin>USA</ns3:CountryOfOrigin>
+                                 <ns3:VinDecode>
+                                    <ns3:Result>Pass</ns3:Result>
+                                    <ns3:Type>Truck</ns3:Type>
+                                    <ns3:Year>2001</ns3:Year>
+                                    <ns3:Status>00000000000000000000</ns3:Status>
+                                    <ns3:MakeCode>DODG</ns3:MakeCode>
+                                    <ns3:MakeDescription>DODGE</ns3:MakeDescription>
+                                    <ns3:SeriesCode>RPC</ns3:SeriesCode>
+                                    <ns3:SeriesDescription>RAM 1500</ns3:SeriesDescription>
+                                    <ns3:SubSeriesCode>150</ns3:SubSeriesCode>
+                                    <ns3:BodyStyleCode>PK</ns3:BodyStyleCode>
+                                    <ns3:BodyStyleDescription>PICKUP</ns3:BodyStyleDescription>
+                                 </ns3:VinDecode>
+                                 <ns3:Mechanical>
+                                    <ns3:ShippingWeight>4573</ns3:ShippingWeight>
+                                    <ns3:GrossVehicleWeight>6,001 - 10,000</ns3:GrossVehicleWeight>
+                                    <ns3:TonnageRate1>0.50</ns3:TonnageRate1>
+                                    <ns3:WheelBase>118.7-134.7</ns3:WheelBase>
+                                    <ns3:TotalAxles>2</ns3:TotalAxles>
+                                    <ns3:DriveAxles>2</ns3:DriveAxles>
+                                    <ns3:Displacement>318</ns3:Displacement>
+                                    <ns3:DisplacementType>CID</ns3:DisplacementType>
+                                    <ns3:Cylinders>8</ns3:Cylinders>
+                                    <ns3:Fuel>GAS</ns3:Fuel>
+                                 </ns3:Mechanical>
+                                 <ns3:Optional>
+                                    <ns3:AntiLockbrakes>REAR ONLY STD</ns3:AntiLockbrakes>
+                                    <ns3:FrontWheelDrive>NO</ns3:FrontWheelDrive>
+                                    <ns3:FourWheelDrive>YES</ns3:FourWheelDrive>
+                                    <ns3:PowerSteering>STD</ns3:PowerSteering>
+                                    <ns3:PowerBrakes>STD</ns3:PowerBrakes>
+                                    <ns3:PowerWindows>OPT</ns3:PowerWindows>
+                                    <ns3:AirConditioning>OPT</ns3:AirConditioning>
+                                    <ns3:TiltWheel>STD</ns3:TiltWheel>
+                                    <ns3:Security>NONE</ns3:Security>
+                                    <ns3:RestraintAirbags>BOTH</ns3:RestraintAirbags>
+                                    <ns3:RestraintBelts>ACTIVE</ns3:RestraintBelts>
+                                 </ns3:Optional>
+                                 <ns3:FieldStatusIndicator>
+                                    <ns3:Year>Discrepancy</ns3:Year>
+                                 </ns3:FieldStatusIndicator>
+                                 <ns3:InterestedParties>
+                                    <ns3:VinInterestedParty>
+                                       <ns3:Description>MECKELBECKER, WILMA J</ns3:Description>
+                                       <ns3:Type>Legal Owner</ns3:Type>
+                                    </ns3:VinInterestedParty>
+                                    <ns3:Owner>
+                                       <ns3:QualifiedAddress qualifiedAddrId="AR904706141">
+                                          <ns3:StreetNumber>41327</ns3:StreetNumber>
+                                          <ns3:StreetAddress1>N CLEAR CROSSING CT</ns3:StreetAddress1>
+                                          <ns3:City>ANTHEM</ns3:City>
+                                          <ns3:State>AZ</ns3:State>
+                                          <ns3:Zip5>85086</ns3:Zip5>
+                                          <ns3:Zip4>1075</ns3:Zip4>
+                                          <ns3:YearsAtAddress>0</ns3:YearsAtAddress>
+                                          <ns3:MonthsAtAddress>0</ns3:MonthsAtAddress>
+                                          <ns3:Classification>residence</ns3:Classification>
+                                       </ns3:QualifiedAddress>
+                                       <ns3:FieldStatusIndicator/>
+                                    </ns3:Owner>
+                                 </ns3:InterestedParties>
+                                 <ns3:Messages>
+                                    <ns3:Message>
+                                       <ns3:Classification>GR</ns3:Classification>
+                                       <ns3:Type>ORIGINAL_EQUIPMENT</ns3:Type>
+                                       <ns3:Code>RA</ns3:Code>
+                                       <ns3:Message>Dual Front Air Bags, Driver and Passenger; with Passenger Side Deactivation/Cu</ns3:Message>
+                                    </ns3:Message>
+                                    <ns3:Message>
+                                       <ns3:Classification>GR</ns3:Classification>
+                                       <ns3:Type>ORIGINAL_EQUIPMENT</ns3:Type>
+                                       <ns3:Code>RB</ns3:Code>
+                                       <ns3:Message>Active (manual) Belts</ns3:Message>
+                                    </ns3:Message>
+                                 </ns3:Messages>
+                              </ns3:ResultVehicle>
+                           </ns3:Vehicles>
+                           <ns3:DiscoveredVehicleMessages>
+                              <ns3:Message>
+                                 <ns3:Classification>GR</ns3:Classification>
+                                 <ns3:Type>GENERAL</ns3:Type>
+                                 <ns3:Message>*** Development Only Available With Valid Address ***</ns3:Message>
+                              </ns3:Message>
+                           </ns3:DiscoveredVehicleMessages>
+                        </ns3:ResultDataSet>
+                        <ns3:TransactionDetailsEx>
+                           <ns3:TransactionDetails>
+                              <ns3:RuleplanId>5200</ns3:RuleplanId>
+                              <ns3:DateTimeOrdered>
+                                 <ns3:Year>2023</ns3:Year>
+                                 <ns3:Month>5</ns3:Month>
+                                 <ns3:Day>9</ns3:Day>
+                              </ns3:DateTimeOrdered>
+                              <ns3:DateTimeReceived>
+                                 <ns3:Year>2023</ns3:Year>
+                                 <ns3:Month>5</ns3:Month>
+                                 <ns3:Day>9</ns3:Day>
+                              </ns3:DateTimeReceived>
+                           </ns3:TransactionDetails>
+                           <ns3:ProcessingStatus>Completed</ns3:ProcessingStatus>
+                        </ns3:TransactionDetailsEx>
+                     </ns3:Result>
+                  </ns3:VehicleIdentificationResults>
+               </ns3:ProductResults>
+               <ns3:RuleplanCode>VIN</ns3:RuleplanCode>
+            </ns3:Response>
+         </ns3:ResponseEx>
+
