@@ -1,3 +1,47 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:lnrisk:ws:wsinsmultiproduct:wsinsmultiproduct" xmlns:urn1="urn:lnrisk:ws:wsinsurancerules:ruleplan@ver=1">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:handleRequest>
+        <Request xmlns="urn:lnrisk:ws:wsinsurancerules:ruleplan@ver=1">
+    <RequesterInformation>
+        <Name>VINReq</Name>
+        <AccountNumber>587578TST</AccountNumber>
+    </RequesterInformation>
+    <TransactionDetails>
+        <RuleplanId>5200</RuleplanId>
+        <SidexInfo>
+            <SourceNode>TONYA</SourceNode>
+        </SidexInfo>
+        <QuoteBacks>
+            <QuoteBack>
+                <Name>LNRiskXML</Name>
+                <Value>VIN</Value>
+            </QuoteBack>
+        </QuoteBacks>
+    </TransactionDetails>
+    <SearchBy>
+        <Vehicles>
+            <InquiryVehicle vehicleId="VEH1">
+            	 <VIN>1B7HF16Y21S207435</VIN>                
+            </InquiryVehicle>
+        </Vehicles>
+    </SearchBy>
+    <Products>
+        <VehicleIdentification>
+            <InquiryVehicleIdentification>
+                <SearchBy>
+                    <Vehicles>
+                        <Vehicle ref="VEH1">VEH1</Vehicle>
+                    </Vehicles>
+                    <Type>VIN Only Services Type</Type>
+                </SearchBy>
+            </InquiryVehicleIdentification>
+        </VehicleIdentification>
+    </Products>
+</Request>
+      </urn:handleRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
 <ns3:ResponseEx>
             <ns3:Response>
                <ns3:Messages>
@@ -232,4 +276,4 @@
                </ns3:ProductResults>
                <ns3:RuleplanCode>VIN</ns3:RuleplanCode>
             </ns3:Response>
-</ns3:ResponseEx>
+         </ns3:ResponseEx>
